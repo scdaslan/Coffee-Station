@@ -1,0 +1,116 @@
+@import  url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{margin: 0;
+padding: 0;}
+
+body{background-image: url('images/kahve\ arkaplant1.jpg');
+} 
+body p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+.navbar{
+    width: 100%;
+    height: 170px;
+    background-color: rgba(43, 40, 38, 0.404);
+}
+.navbar h1{
+    font-size: 45px;
+    margin: -95 170px;
+}
+.logo{
+    display:inline block;
+    margin-top: 5px;}
+
+.navbar ul{
+    text-align: right;
+    margin-right: 20px;
+    margin-top: -65px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 12px;
+    line-height: 25px;
+}
+.navbar ul li a{
+    display: inline-block;
+    color: rgb(228, 228, 228);
+    text-decoration: none;
+    font-size: 25px;
+}
+.navbar ul li a:hover{
+    color: rgba(87, 72, 62, 0.884);
+}
+.başlık2{
+    font-size: 50px;
+}
+.içerik a:hover{
+    background-color:rgba(250, 235, 215, 0.226) ;
+}
+.içerik a{
+    color: black;
+}
+.içerik a:visited{color: black;}
+.içerik a:active {
+    color: rgba(73, 64, 57, 0.884);
+}
+.french{
+    margin-top: 20px;
+    width: 1800px;
+    margin: left;
+}
+.house{
+    width: 1000px;
+    margin: left;
+}
+.soldadursun{
+    float: left;
+    padding: 0 10px 10px 0;
+}
+.sağdadursun{
+    float: right;
+    padding: 0 0 10px 10px;
+    margin-right: 20px;
+}
+.backtop{
+    position: fixed;
+    bottom: 2px;
+    font-family:'Roboto', sans-serif;
+    color: black;
+    font-size: 25px;
+    background-color:rgba(124, 120, 117, 0.473);
+    margin-left: 30px;
+    line-height: 75px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.backtop:hover{
+   background-color: rgba(231, 218, 202, 0.767);
+}
+.about{
+    display: inline-block;
+    margin-left: 25px;
+}
+.about h2{
+    margin-top: 120px;
+}
+.footer{
+    position:relative;
+    text-align: center;
+}
+.gönder{
+    display: inline-block;
+    width: 60px;
+    height: 25px;
+    color: black;
+    background-color: white;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.gönder:hover{
+    background-color: rgba(165, 42, 42, 0.164);
+}
+.form{
+    margin: 10px;
+}
