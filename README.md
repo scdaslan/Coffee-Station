@@ -1,2 +1,2 @@
 # coffeestation
-https://scdaslan.github.io/coffeestation/
+https://scdaslan.github.io/Coffee-Station/
